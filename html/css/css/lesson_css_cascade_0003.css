@@ -1,0 +1,8 @@
+/* !importantの指定をするとこの値が優先されます*/
+p {
+    color: red !important;
+}
+/* 上書きされないことを確認しましょう*/
+p {
+    color: blue;
+}

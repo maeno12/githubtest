@@ -1,0 +1,10 @@
+#box {
+    width: 300px;/*ボックスの幅の指定*/
+    height: 300px;/*ボックスの高さの指定*/
+    border-top: solid #ff0000 1px;/*線の種類の指定　色の指定　線の太さの指定*/
+    border-bottom: dotted #00ff00 2px;/*線の種類の指定　色の指定　線の太さの指定*/
+    border-left: dashed #0000ff 3px;/*線の種類の指定　色の指定　線の太さの指定*/
+    border-right: double #ff00ff 4px;/*線の種類の指定　色の指定　線の太さの指定*/
+    background: gray;/*ボックスの色の指定*/
+    padding: 10px;/*余白の指定*/
+}

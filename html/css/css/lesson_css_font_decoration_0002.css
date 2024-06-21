@@ -1,0 +1,9 @@
+#font_oline {
+    text-decoration: overline;
+}
+#font_tline {
+    text-decoration: line-through;
+}
+#font_uline {
+    text-decoration: underline;
+}

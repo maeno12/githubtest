@@ -1,0 +1,6 @@
+.oya {
+    width: 200px;/*親要素のwidthを200pxに*/
+}
+p {
+    background: red;/*何も指定しない場合初期値でwidthはauto*/
+}

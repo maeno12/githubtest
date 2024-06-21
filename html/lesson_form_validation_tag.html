@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="ja">
+    <head>
+        <title>タグを書いてみよう</title>
+        <meta charset="utf-8">
+        <meta name="description" content="divタグとspanタグ">
+    </head>
+    <body>
+    <!--ここに内容を書く-->
+<h1>フォームの入力チェック</h1>
+    <form name="user_form" action="user_register.php" method="post">
+    <label for="nickname">ニックネーム：*必須</label>
+    <input type="text" name="nickname" id="name" required><br>
+    <br>
+    <label for="email">メールアドレス：*必須</label>
+    <input type="email" name="email" id="email" required><br>
+    <br>
+    <label for="age">年齢：*必須</label>
+    <input type="number" name="age" id="age" required><br>
+    <br>
+    <label for="birthday">誕生日：*必須</label>
+    <input type="date" name="birthday" id="birthday" required><br>
+    <br>
+    <label for="url">よく見るホームページのURL：必須</label>
+    <input type="url" name="url" id="url" required><br>
+    ご感想:<br>
+    <textarea name="impression" rows="4" cols="40" required>ここに感想を記入してください</textarea>
+    <input type="submit" value="送信">
+    </form>
+  </body>
+</html>

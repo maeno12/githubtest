@@ -1,0 +1,6 @@
+#box {
+    width: 300px;/*ボックスの幅の指定*/
+    height: 300px;/*ボックスの高さの指定*/
+    border: solid #ff0000 1px;/*線の種類の指定*/
+    background: gray;/*ボックスの色の指定*/
+}

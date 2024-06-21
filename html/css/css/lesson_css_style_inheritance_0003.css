@@ -1,0 +1,6 @@
+div.sample3 {
+    border: 1px solid #000000;
+}
+p.sample4 {
+    border: inherit;
+}

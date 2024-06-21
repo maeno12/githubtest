@@ -1,0 +1,24 @@
+/* 全称セレクタ*/
+* {
+    color:aqua;
+}
+/* タイプセレクタ*/
+p {
+    color:lime;
+}
+/* 要素を特定しない　class セレクタ　*/
+.cls {
+    color:olive;
+}
+/* 要素を特定した　class セレクタ　*/
+p.cls {
+    color:yellow;
+}
+/* 要素を特定しない　id セレクタ　*/
+#id {
+    color:green;
+}
+/* 要素を特定した　id セレクタ　*/
+p#id {
+    color:red;
+}

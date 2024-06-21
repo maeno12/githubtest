@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="ja">
+    <head>
+        <title>タグを書いてみよう</title>
+        <meta charset="utf-8">
+        <meta name="description" content="ユーザーが入力出来るformタグ">
+    </head>
+    <body>
+        <!--ここに内容を書く-->
+        <h1>ユーザーが入力出来formタグ</h1>
+        <form name="user_form" action="user_register.php" method="post"></form>
+        <label for="nickname">ニックネーム</label>
+        <input type="text" name="nickname" id="namae"><br>
+
+        血液型：<label><input type="radio" name="blood" value="a">A型</label>
+        <label><input type="radio" name="blood" value="b">B型</label>
+        <label><input type="radio" name="blood" value="o">O型</label>
+        <label><input type="radio" name="blood" value="ab">AB型</label><br>
+
+        地域：<br>
+        <select name="are">
+            <option value="北海道">北海道</option>
+            <option value="東北">東北</option>
+            <option value="関東">関東</option>
+            <option value="関西">関西</option>
+        </select><br>
+        趣味：<br>
+        <input type="checkbox" id="movie" name="movie" value="1"><label for="movie">映画鑑賞</label>
+        <input type="checkbox" id="music" name="music" value="2"><label for="music">音楽鑑賞</label>
+        <input type="checkbox" id="trip" name="trip" value="3"><label for="trip">旅行</label>
+        
+        ご感想：<br>
+        <textarea name="impression" rows="4" cols="40">ここに感想を記入してください。</textarea>
+        <input type="hidden" name="secret" value="内緒">
+        <input type="submit" value="送信">
+        </form>
+    </body>
+</html>

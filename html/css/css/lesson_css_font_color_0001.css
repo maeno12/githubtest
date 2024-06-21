@@ -1,0 +1,21 @@
+span.sample1 {
+    color: red;
+}
+span.sample2 {
+    color: #FF0000;
+}
+span.sample3 {
+    color: RGB(255,0,0);
+}
+span.sample4 {
+    color: RGBa(255,0,0,0.5);
+}
+span.sample5 {
+    color: hsl(0,100%,50%);
+}
+span.sample6 {
+    color: hsla(0,100%,50%,0.5);
+}
+span.sample7 {
+    color: RGB(100%,0%,0%);
+}

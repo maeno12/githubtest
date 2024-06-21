@@ -1,0 +1,15 @@
+#oyanooya {
+    width: 100%;
+    height: 200px;
+    background: gray;
+}
+#oya {
+    width: 50%;
+    height: 100px;
+    background: red;
+}
+#oya p {
+    width: 50%;
+    height: 50px;
+    background: orange;
+}
