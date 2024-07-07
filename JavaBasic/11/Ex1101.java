@@ -1,7 +1,39 @@
 class Ex1101{
 	public static void main(String[] args){
-		//ãƒ»ã‚­ãƒ¼ãƒœãƒ¼ãƒ‰ã‹ã‚‰ãƒ†ã‚¹ãƒˆã®ç‚¹æ•°ã‚’å—ã‘ä»˜ã‘ã€intå‹ã«å¤‰æ›ã—intå‹å¤‰æ•°ã«ä»£å…¥ã—ã¾ã™ã€‚
-		//ãƒ»ï¼–ï¼ç‚¹æœªæº€ã®å ´åˆã«ã¯ã€ã‚­ãƒ¼ãƒœãƒ¼ãƒ‰ã‹ã‚‰è£œä¿®å—è¬›ã®æœ‰ç„¡ã‚’"yes"/"no"ã§å—ã‘ä»˜ã‘ã€Stringå‹å¤‰æ•°ã«ä»£å…¥ã—ã¾ã™lã€‚
+		//EƒL[ƒ{[ƒh‚©‚çƒeƒXƒg‚Ì“_”‚ğó‚¯•t‚¯AintŒ^‚É•ÏŠ·‚µintŒ^•Ï”‚É‘ã“ü‚µ‚Ü‚·B
+		//E‚U‚O“_–¢–‚Ìê‡‚É‚ÍAƒL[ƒ{[ƒh‚©‚ç•âCóu‚Ì—L–³‚ğ"yes"/"no"‚Åó‚¯•t‚¯AStringŒ^•Ï”‚É‘ã“ü‚µ‚Ü‚·lB
+		//[•]‰¿]
+		//‚W‚O“_ˆÈãEEA•]‰¿
+		//‚U‚O“_ˆÈã‚W‚O“_–¢–EEB•]‰¿
+		//‚U‚O“_–¢–EEC•]‰¿(•âK‚ğó‚¯‚½j
+		//@@@@EEED•]‰¿i•âK‚ğó‚¯‚Ä‚¢‚È‚¢)
 		
+		//•Ï”éŒ¾
+		String result;  //•]‰¿Œ‹‰Ê
+		int score;      //“_”
+		String addStudy = null; //•âK‚ğó‚¯‚½("yes"/"no")
+		
+		//“_”“ü—Í
+		System.out.println("\n“_”‚ğ“ü—Í‚µ‚Ä‚­‚¾‚³‚¢„");
+		String str = new java.util.Scanner(System.in).nextLine();
+		score = Integer.parseInt(str);
+		
+		//60“_–¢–‚Ì‚É•âK‚Ì—L–³‚ğ•·‚­
+		if (score < 60) {
+		    System.out.println("\n•âK‚ğó‚¯‚Ü‚µ‚½‚©H(yes/no) >");
+			addStudy = new java.util.Scanner(System.in).nextLine();
+		}
+		//”»’è
+		if (80 <= score) {
+			result = "A•]‰¿";
+		} else if (60 <= score){
+		    result = "B•]‰¿";
+		} else if (addStudy.equals("yes")) {
+			result = "C•]‰¿";
+		} else {
+			result = "D•]‰¿";
+		//Œ‹‰Ê‚Ì•\¦
+			System.out.println("\nŒ‹‰ÊF" + result);
+		}
 	}
 }

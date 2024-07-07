@@ -6,13 +6,13 @@ class Sample0502 {
 	public static void main(String[] args) {
 
 		int age;				// 変数の宣言
-		age = 20;				// 変数への値の代入
+		age = 20;				// 変数への値の代入 コメントアウトする　１５行目でコンパイルエラー
 
-		age = 24;				// 上書き
+		age = 24;				// 上書き　コメントアウトする
 
 		int height = 173;		// 変数の宣言と代入（初期化）
 
-		int thisAge = age;		// 変数から変数へ代入
+		int thisAge = age;		// 変数から変数へ代入　//コメントアウトするとコンパイルエラー　変数ageが初期化されていない可能性があります。
 		int nextAge = age + 1;	// 計算結果の代入
 
 		// 剛留くん情報の表示

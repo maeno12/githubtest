@@ -9,25 +9,25 @@ class Sample0703 {
 
 		// 後置インクリメント
 		a = 5;
-		int result1 = a++;
+		int result1 = a++;  //評価してから
 		System.out.println("result1：" + result1);	// 5
 		System.out.println("a：" + a);				// 6
 
 		// 前置インクリメント
 		a = 5;
-		int result2 = ++a;
+		int result2 = ++a;  //足してから
 		System.out.println("result2：" + result2);	// 6
 		System.out.println("a：" + a);				// 6
 		
 		// 後置デクリメント
 		a = 5;
-		int result3 = a--;
+		int result3 = a--;  //評価してから
 		System.out.println("result3：" + result3);	// 5
 		System.out.println("a：" + a);				// 4
 
 		// 前置デクリメント
 		a = 5;
-		int result4 = --a;
+		int result4 = --a;  //引いから
 		System.out.println("result4：" + result4);	// 4
 		System.out.println("a：" + a);				// 4
 	}

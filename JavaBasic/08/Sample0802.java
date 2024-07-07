@@ -10,7 +10,21 @@ class Sample0802 {
 
 		// Š|‚¯Z‚ÌŒ‹‰Ê‚ğ intŒ^•Ï”‚É‘ã“ü
 		int result = (int) (price * TAX_RATE);
-//		int result = (int) price * TAX_RATE;
+//		int result = (int) price * TAX_RATE;//ƒLƒƒƒXƒg‰‰Zq‚Ì–@‚ª—Dæ‡ˆÊ‚ª‚‚¢‚ÌƒRƒ“ƒpƒCƒ‹ƒGƒ‰[‚ª‹N‚«‚é
 		System.out.println("resultF" + result);
+
+		/*		//StringŒ^¨intŒ^
+		String a = "10";
+		int b = Intger.parseInt(a);
+		//StringŒ^¨doubleŒ^
+		String c = "12.34";
+		double d = Double.parseDouble(c);
+		//”’l(int/double)Œ^¨StringŒ^
+		int a = 10;
+		String aStr = String.valueOf(a);
+		‡B”’l(int/double)Œ^¨StringŒ^i©“®“I‚ÈŒ^•ÏŠ·‚ğŠˆ—pj
+		int a = 10;
+		String aStr = "" + a;
+*/
 	}
 }

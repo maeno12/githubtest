@@ -6,7 +6,7 @@ class Sample0602 {
 	public static void main(String[] args) {
 
 		String name = "河合彩香";	// 名前
-		float value = 62.7f;		// 偏差値
+		float value = 62.7f;		// 偏差値 fは大文字でも小文字でもいい
 		char assess = 'Ａ';			// 評価
 
 		// 文字列の連結（連結演算子を使用）

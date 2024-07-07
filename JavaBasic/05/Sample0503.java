@@ -9,7 +9,7 @@ class Sample0503 {
 
 		int myScore = 72;		// 変数（得点）の宣言・初期化
 
-//		PERFECT_SCORE = 200;	// 再度、代入できない
+//		PERFECT_SCORE = 200;	// 再度、代入できない fainalによって実行することができない
 
 		// 成績情報の表示
 		System.out.println("満点=" + PERFECT_SCORE);

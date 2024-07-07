@@ -6,6 +6,7 @@
 class Sample0706 {
 	public static void main(String[] args) {
 		// 変数宣言・初期化
+		//int型の変数と初期化←初期化のやり方は 型　変数名　＝代入される値;
 		int a = 5;
 		int b = 2;
 

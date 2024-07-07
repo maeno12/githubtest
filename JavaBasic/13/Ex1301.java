@@ -1,5 +1,13 @@
 class Ex1301{
 	public static void main(String[] args){
-		//whileæ–‡ã‚’ä½¿ã£ã¦ï¼‘ï¼ï¼ã‹ã‚‰ï¼‘ã¾ã§ã‚’é †ç•ªã«è¡¨ç¤º
+		//while•¶‚ğg‚Á‚Ä‚P‚O‚O‚©‚ç‚P‚Ü‚Å‚ğ‡”Ô‚É•\¦
+		//ƒJƒEƒ“ƒ^•Ï”‚Ì‰Šú‰»
+		int i = 100;
+		
+		//while ƒ‹[ƒv
+		while (1 <= i) {
+			System.out.println(i);  // •\¦
+			i--;
+		}
 	}
 }
