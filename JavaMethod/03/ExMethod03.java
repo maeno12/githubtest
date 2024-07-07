@@ -1,0 +1,28 @@
+class ExMethod03 {
+	/*
+	２つのメソッドが存在するmainとgetIntArrayメソッド
+	 * double型 配列を int型配列 に変換して表示
+	 */
+	public static void main(String[] args) {
+		// double型 配列の宣言・初期化
+		int[] arrayInt/*25行目の仮引数と同じ形*/= {3.5.8};
+		// int型 配列の取得
+		int[] arrayInt = total(arrayInt);/*←25行目と同じ変数名*///メソッドを呼び出す時の実引数は11行目で初期化したdouble型配列arrayDouble//int[] arrayIntは配列名
+		// 結果表示for (int i = 0; i < arrayInt.length; i++) {
+			System.out.println(arrayInt[i]);
+		}
+	/*
+	 * double 配列を int型配列 に変換
+	 * 引数：	arrayDouble ... double型配列
+	 * 戻り値：	int型配列
+	 */
+	static int[] total(int[] arrayInt) {
+		// 結果配列の宣言・要素の領域確保
+		int[] result = new int[arrayInt.length];//このarrayDouble.lengthは、受け取ったdouble型配列の要素数と同じ要素数文を確保数する←配列の回数だけ計算するの数字が増えたとしてもここをいじる必要はない。
+		// 結果配列への値の設定
+		for (int i = 0; i < arrayInt.length; i++) {
+			result[i] += (int) arrayInt[i];
+		}
+		return result;		// 結果を戻す
+	}
+}
